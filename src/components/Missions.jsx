@@ -21,7 +21,7 @@ class Missions extends React.Component {
     return (
       <div data-testid="missions">
         <Title headline="Missões" />
-        <div>{missionsCard}</div>
+        <div className="cardMission">{missionsCard}</div>
       </div>
     );
   }

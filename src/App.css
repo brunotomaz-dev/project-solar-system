@@ -1,3 +1,100 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('./images/background.png');
+}
+
+main {
+  color: white;
+  text-align: center;
+}
+
+.cardPlanet {
+  border: 1px white solid;
+  display: flex;
+}
+
+.cardPlanet div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.planetImage {
+  max-width: 100%;
+}
+
+.cardPlanet div:nth-of-type( 1 ) .planetImage {
+  display: flex;
+  margin-bottom: auto;
+  margin-top: auto;
+  max-width: 35%;
+}
+
+.cardPlanet div:nth-of-type( 2 ) .planetImage {
+  display: flex;
+  margin-bottom: auto;
+  margin-top: auto;
+  max-width: 55%;
+}
+
+.cardPlanet div:nth-of-type( 3 ) .planetImage {
+  display: flex;
+  margin-bottom: auto;
+  margin-top: auto;
+  max-width: 80%;
+}
+
+.cardPlanet div:nth-of-type( 4 ) .planetImage {
+  display: flex;
+  margin-bottom: auto;
+  margin-top: auto;
+  max-width: 70%;
+}
+
+.cardPlanet div:nth-of-type( 5 ) .planetImage {
+  display: flex;
+  margin-bottom: auto;
+  margin-top: auto;
+  max-width: 125%;
+}
+
+.cardPlanet div:nth-of-type( 6 ) .planetImage {
+  display: flex;
+  margin-bottom: auto;
+  margin-top: auto;
+  max-width: 90%;
+}
+
+.cardPlanet div:nth-of-type( 7 ) .planetImage {
+  display: flex;
+  margin-bottom: auto;
+  margin-top: auto;
+  max-width: 60%;
+}
+
+.cardPlanet div:nth-of-type( 8 ) .planetImage {
+  display: flex;
+  margin-bottom: auto;
+  margin-top: auto;
+  max-width: 50%;
+}
+
+.cardMission {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.missionCard {
+  background-color: rgb(12, 12, 12);
+  border: 1px white solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 7px;
+  width: 14%;
+}
