@@ -11,9 +11,19 @@ main {
   text-align: center;
 }
 
+.titlePlanet {
+  background-color: rgba(240, 248, 255, 0.13);
+  border: 1px rgba(255, 255, 255, 0.288) solid;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 7px;
+  width: 95%;
+}
+
 .cardPlanet {
-  border: 1px white solid;
   display: flex;
+  margin: 25px 0;
 }
 
 .cardPlanet div {
@@ -85,13 +95,15 @@ main {
 .cardMission {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  gap: 30px;
+  justify-content: space-evenly;
+  margin: 25px 0;
 }
 
 .missionCard {
   background-color: rgb(12, 12, 12);
-  border: 1px white solid;
+  border: 1px rgba(255, 255, 255, 0.678) solid;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
